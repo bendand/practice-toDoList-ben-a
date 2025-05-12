@@ -9,11 +9,6 @@
   font-style: italic;
 }
 
-.todo-title {
-  margin: 0px;
-  padding: 0;
-}
-
 .todo-list {
   list-style: square;
 }

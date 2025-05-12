@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className='main-content'>
         <Header />
         <ToDoList />
       </div>

@@ -3,14 +3,11 @@ export default function ToDoList() {
 
     return (
         <div className="todo-container">
-            <p className="todo-title">List:</p>
-            <div>
-                <ul className="todo-list">
-                    <li>{tasks[0]}</li>
-                    <li>{tasks[1]}</li>
-                    <li>{tasks[2]}</li>
-                </ul>
-            </div>
+            <ul className="todo-list">
+                <li>{tasks[0]}</li>
+                <li>{tasks[1]}</li>
+                <li>{tasks[2]}</li>
+            </ul>
         </div>
     );
 }
